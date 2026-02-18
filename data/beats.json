@@ -1,0 +1,92 @@
+[
+    {
+        "id": "beat-001",
+        "title": "Midnight Drive",
+        "bpm": 140,
+        "key": "Am",
+        "genre": "Trap",
+        "tags": [
+            "dark",
+            "atmospheric",
+            "heavy"
+        ],
+        "price": "R$ 150",
+        "audioPreview": "",
+        "cover": ""
+    },
+    {
+        "id": "beat-002",
+        "title": "Golden Hour",
+        "bpm": 92,
+        "key": "Cmaj",
+        "genre": "Lo-Fi",
+        "tags": [
+            "chill",
+            "mellow",
+            "vintage"
+        ],
+        "price": "R$ 120",
+        "audioPreview": "",
+        "cover": ""
+    },
+    {
+        "id": "beat-003",
+        "title": "Concrete Jungle",
+        "bpm": 90,
+        "key": "Dm",
+        "genre": "Boom Bap",
+        "tags": [
+            "raw",
+            "gritty",
+            "classic"
+        ],
+        "price": "R$ 100",
+        "audioPreview": "",
+        "cover": ""
+    },
+    {
+        "id": "beat-004",
+        "title": "Neon Pulse",
+        "bpm": 128,
+        "key": "Fm",
+        "genre": "Eletrônico",
+        "tags": [
+            "synth",
+            "futuristic",
+            "energy"
+        ],
+        "price": "R$ 180",
+        "audioPreview": "",
+        "cover": ""
+    },
+    {
+        "id": "beat-005",
+        "title": "Velvet Sky",
+        "bpm": 75,
+        "key": "Ebmaj",
+        "genre": "R&B",
+        "tags": [
+            "smooth",
+            "soulful",
+            "vibey"
+        ],
+        "price": "R$ 130",
+        "audioPreview": "",
+        "cover": ""
+    },
+    {
+        "id": "beat-006",
+        "title": "Shadow Protocol",
+        "bpm": 155,
+        "key": "Gm",
+        "genre": "Trap",
+        "tags": [
+            "aggressive",
+            "hard",
+            "808"
+        ],
+        "price": "R$ 200",
+        "audioPreview": "",
+        "cover": ""
+    }
+]

@@ -1,0 +1,24 @@
+{
+    "siteName": "ANTIGRAVITY",
+    "tagline": "Plataforma de Beats & Samples",
+    "description": "O marketplace definitivo para produtores.",
+    "genres": [
+        "Trap",
+        "Lo-Fi",
+        "Boom Bap",
+        "R&B",
+        "Eletrônico",
+        "Drill",
+        "Pop",
+        "Funk",
+        "Reggaeton"
+    ],
+    "maxUploadSizeMB": 100,
+    "repoOwner": "gravadorabode",
+    "repoName": "BABEL",
+    "branch": "main",
+    "likesWeight": {
+        "producer": 2,
+        "visitor": 1
+    }
+}

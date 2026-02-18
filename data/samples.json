@@ -1,0 +1,74 @@
+[
+    {
+        "id": "sample-001",
+        "title": "808 Thunder Pack",
+        "type": "Drum Kit",
+        "tags": [
+            "808",
+            "bass",
+            "kicks"
+        ],
+        "count": 25,
+        "audioPreview": ""
+    },
+    {
+        "id": "sample-002",
+        "title": "Ambient Textures Vol.1",
+        "type": "Loops",
+        "tags": [
+            "ambient",
+            "pads",
+            "atmosphere"
+        ],
+        "count": 15,
+        "audioPreview": ""
+    },
+    {
+        "id": "sample-003",
+        "title": "Vocal Chops — Ethereal",
+        "type": "One Shots",
+        "tags": [
+            "vocals",
+            "chops",
+            "melodic"
+        ],
+        "count": 30,
+        "audioPreview": ""
+    },
+    {
+        "id": "sample-004",
+        "title": "HiHat Madness",
+        "type": "Drum Kit",
+        "tags": [
+            "hihats",
+            "rolls",
+            "percussion"
+        ],
+        "count": 40,
+        "audioPreview": ""
+    },
+    {
+        "id": "sample-005",
+        "title": "Guitar Melodies — Sad",
+        "type": "Loops",
+        "tags": [
+            "guitar",
+            "sad",
+            "melodic"
+        ],
+        "count": 12,
+        "audioPreview": ""
+    },
+    {
+        "id": "sample-006",
+        "title": "FX Risers & Drops",
+        "type": "One Shots",
+        "tags": [
+            "fx",
+            "transitions",
+            "risers"
+        ],
+        "count": 20,
+        "audioPreview": ""
+    }
+]

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANTIGRAVITY — Login</title>
+    <meta name="theme-color" content="#0a0a0f">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="login-page">
+        <!-- Background orbs -->
+        <div class="hero-bg">
+            <div class="hero-orb orb-1"></div>
+            <div class="hero-orb orb-2"></div>
+            <div class="hero-orb orb-3"></div>
+        </div>
+
+        <div class="login-card">
+            <div class="login-logo">
+                <span class="logo-icon">▲</span>
+                <span class="logo-text">ANTIGRAVITY</span>
+            </div>
+
+            <!-- LOGIN FORM -->
+            <div id="login-form-wrapper">
+                <h2 class="login-title">Entrar como Produtor</h2>
+                <form id="login-form">
+                    <div class="form-group">
+                        <label class="form-label" for="login-email">E-mail</label>
+                        <input class="form-input" type="email" id="login-email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="login-password">Senha</label>
+                        <input class="form-input" type="password" id="login-password" placeholder="••••••••" required>
+                    </div>
+                    <div id="login-error" class="form-error" style="display:none; margin-bottom:16px;"></div>
+                    <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                        Entrar
+                    </button>
+                </form>
+                <div class="login-toggle">
+                    Ainda não tem conta? <a id="show-register">Criar conta</a>
+                </div>
+            </div>
+
+            <!-- REGISTER FORM -->
+            <div id="register-form-wrapper" style="display:none;">
+                <h2 class="login-title">Criar Conta de Produtor</h2>
+                <form id="register-form">
+                    <div class="form-group">
+                        <label class="form-label" for="reg-name">Nome Artístico</label>
+                        <input class="form-input" type="text" id="reg-name" placeholder="Seu nome de produtor" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="reg-email">E-mail</label>
+                        <input class="form-input" type="email" id="reg-email" placeholder="seu@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label" for="reg-password">Senha</label>
+                        <input class="form-input" type="password" id="reg-password" placeholder="Mínimo 6 caracteres"
+                            required minlength="6">
+                    </div>
+                    <div id="register-error" class="form-error" style="display:none; margin-bottom:16px;"></div>
+                    <div class="alert-info"
+                        style="font-size:0.8rem; margin-bottom:16px; color:var(--text-muted); line-height:1.4;">
+                        Nota: O primeiro registro solicitará um Personal Access Token (PAT) do GitHub para habilitar a
+                        escrita no banco de dados.
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">
+                        Criar Conta
+                    </button>
+                </form>
+                <div class="login-toggle">
+                    Já tem conta? <a id="show-login">Fazer login</a>
+                </div>
+            </div>
+
+            <div style="text-align:center; margin-top:var(--space-5);">
+                <a href="index.html" style="font-size:0.85rem; color:var(--text-muted);">← Voltar para o site</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST CONTAINER -->
+    <div class="toast-container" id="toast-container"></div>
+
+    <!-- Octokit & GitHub DB -->
+    <script type="module">
+        import { Octokit } from "https://esm.sh/@octokit/core";
+        window.Octokit = Octokit;
+    </script>
+    <script src="js/crypto-utils.js"></script>
+    <script src="js/github-db.js" type="module"></script>
+    <script src="js/cache.js"></script>
+    <script src="js/auth.js" type="module"></script>
+</body>
+
+</html>
