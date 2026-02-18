@@ -1,15 +1,3 @@
 {
-  "users": [
-    {
-      "uid": "u_mlrlv76s",
-      "name": "Lx Bode",
-      "email": "lxcontatoofc@gmail.com",
-      "passwordHash": "4b27e38b8bd2d67d56f08992c92cdddd212450042741428fc3eb39fe17da0dd4",
-      "bio": "",
-      "avatar": "",
-      "links": {},
-      "role": "producer",
-      "createdAt": "2026-02-18T05:42:33.509Z"
-    }
-  ]
+  "users": []
 }
