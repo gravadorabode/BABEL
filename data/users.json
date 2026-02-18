@@ -5,9 +5,13 @@
       "name": "Lx Bode",
       "email": "lxcontatoofc@gmail.com",
       "passwordHash": "4b27e38b8bd2d67d56f08992c92cdddd212450042741428fc3eb39fe17da0dd4",
-      "bio": "",
+      "bio": "O dono da BODE.",
       "avatar": "",
-      "links": {},
+      "links": {
+        "instagram": "",
+        "youtube": "",
+        "whatsapp": ""
+      },
       "role": "producer",
       "createdAt": "2026-02-18T06:59:18.107Z"
     },
